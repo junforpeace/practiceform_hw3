@@ -1,12 +1,8 @@
 package beginautotests;
 
 import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.WebDriverRunner;
 import org.junit.jupiter.api.*;
-import org.openqa.selenium.chrome.ChromeDriver;
-
 import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Configuration.*;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
