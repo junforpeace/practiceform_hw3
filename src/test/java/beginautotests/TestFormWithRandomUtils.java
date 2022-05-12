@@ -9,14 +9,15 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 import static java.lang.String.format;
+import static utils.RandomUtils.getRandomEmail;
+import static utils.RandomUtils.getRandomString;
 
 
-
-public class TestFormWithTestData {
+public class TestFormWithRandomUtils {
     // parameters
-    String name = "Oksana",
-            lastname = "Ivanova",
-            userEmail = "oksana@com.com";
+    String name = getRandomString(10),
+            lastname = getRandomString(10),
+            userEmail = getRandomEmail();
     String FullName = format("%s %s", name, lastname);
     String subject = "Civics";
     String phone = "9988778899";
