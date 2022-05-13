@@ -41,8 +41,8 @@ public class RegistrationFormPage {
         return this;
 
     }
-    public RegistrationFormPage setFirstName(String value) {
-        $(firstName).setValue(value);
+    public RegistrationFormPage setFirstName(String name) {
+        $(firstName).setValue(name);
 
         return this;
     }

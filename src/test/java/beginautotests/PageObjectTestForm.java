@@ -63,7 +63,7 @@ public class PageObjectTestForm {
                             .setState(state, city)
                             .submitForm()
                             .checkTitle(formTitle)
-                            .checkResult("Student name", FullName)
+                            .checkResult("Student Name", FullName)
                             .checkResult("Student Email", userEmail)
                             .checkResult("Gender", gender)
                             .checkResult("Mobile", phone)
